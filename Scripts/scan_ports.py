@@ -6,19 +6,19 @@ serveur = input("Entrez une adresse IP ou un nom de serveur : ")
 # Liste des ports à tester
 ports = [22, 80, 443, 3306]
 
-# Parcours de chaque port
+# Parcours de chaque port à tester
 for port in ports:
 
     # Création d'une socket TCP
     connexion = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    # Temps d'attente maximal
+    # Définition du temps d'attente maximal
     connexion.settimeout(2)
 
     # Test de connexion au port
     resultat = connexion.connect_ex((serveur, port))
 
-    # Affichage du résultat
+    # Affichage du résultat du test
     if resultat == 0:
         print(f"Port {port} : ouvert")
     else:

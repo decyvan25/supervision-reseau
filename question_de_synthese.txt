@@ -1,0 +1,9 @@
+GitHub est un outil essentiel pour les administrateurs réseaux et systèmes car il permet de centraliser les scripts, les configurations et la documentation technique dans un dépôt unique accessible à toute l’équipe.
+
+Le versionnement permet de conserver l’historique des modifications, de revenir à une version précédente en cas d’erreur et d’identifier précisément l’auteur de chaque changement. Cela améliore la traçabilité et la sécurité des opérations d’administration.
+
+Les branches permettent de travailler sur de nouvelles fonctionnalités ou modifications sans impacter la version principale du projet. Les Pull Requests facilitent la relecture et la validation des changements avant leur intégration dans la branche principale.
+
+GitHub Actions permet d’automatiser certaines tâches comme la validation des fichiers, l’exécution de tests ou le contrôle de conformité des configurations. Cela réduit les erreurs et améliore la qualité du projet.
+
+Dans le domaine des infrastructures réseaux, GitHub facilite la gestion collaborative des scripts d’automatisation, des configurations des équipements et de la documentation technique. Il contribue ainsi à améliorer l’organisation, la disponibilité et la maintenance des systèmes d’information.

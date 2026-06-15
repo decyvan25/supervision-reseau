@@ -1,0 +1,11 @@
+# Autoriser SSH
+ALLOW TCP 22 FROM 192.168.10.0/24
+
+# Autoriser HTTP
+ALLOW TCP 80 FROM ANY
+
+# Autoriser HTTPS
+ALLOW TCP 443 FROM ANY
+
+# Bloquer le reste
+DENY ALL
